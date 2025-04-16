@@ -3,7 +3,7 @@ name: Run Python Script
 on:
   schedule:
     # Runs every minute
-    - cron: '*/5 * * * *'
+    - cron: '0 15 * * *'
   # Optional: Allow manual triggering through GitHub UI
   workflow_dispatch:
 
