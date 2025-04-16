@@ -1,24 +1,31 @@
-name: Run my script
+name: Run Python Script
 
 on:
   schedule:
+    # Runs every minute
     - cron: '* * * * *'
+  # Optional: Allow manual triggering through GitHub UI
+  workflow_dispatch:
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
       
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: |
-          pip3 install -r requirements.txt
-          
-      - name: Run script
-        run: python3 script.py
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then
+          pip install -r requirements.txt
+        fi
+        
+    - name: Run script
+      run: python script.py
