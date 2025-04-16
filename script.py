@@ -3,15 +3,16 @@
 !pip install gspread oauth2client schedule beautifulsoup4 requests resend
 
 # === IMPORTS ===
-import schedule
-import time
+
+# import time
+# import schedule
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import resend
-from google.colab import drive
+# from google.colab import drive
 
 drive.mount('/content/drive')
 
@@ -155,8 +156,8 @@ def scrape_store_and_email():
 scrape_store_and_email()
 
 # === SCHEDULE TO RUN DAILY AT 9AM ===
-schedule.every().day.at("21:08").do(scrape_store_and_email)
+# schedule.every().day.at("21:08").do(scrape_store_and_email)
 
-while True:
-    schedule.run_pending()
-    time.sleep(60)
+# while True:
+#     schedule.run_pending()
+#     time.sleep(60)
