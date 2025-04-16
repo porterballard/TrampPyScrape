@@ -1,6 +1,6 @@
 # using google sheets api, this code works
 # Install dependencies
-!pip install gspread oauth2client schedule beautifulsoup4 requests resend
+
 
 # === IMPORTS ===
 
@@ -24,7 +24,7 @@ json_key_path = './creds.json'
 import os
 print(os.listdir())
 
-creds = ServiceAccountCredentials.from_json_keyfile_name(json_key_path, scope)
+
 
 
 # === REPLACE WITH YOUR RESEND API KEY ===
@@ -35,6 +35,8 @@ scope = ["https://spreadsheets.google.com/feeds",
          "https://www.googleapis.com/auth/spreadsheets",
          "https://www.googleapis.com/auth/drive.file",
          "https://www.googleapis.com/auth/drive"]
+
+creds = ServiceAccountCredentials.from_json_keyfile_name(json_key_path, scope)
 
 client = gspread.authorize(creds)
 
