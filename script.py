@@ -14,9 +14,9 @@ from oauth2client.service_account import ServiceAccountCredentials
 import resend
 # from google.colab import drive
 
-drive.mount('/content/drive')
+# drive.mount('/content/drive')
 
-json_key_path = '/content/drive/MyDrive/creds.json'
+json_key_path = './creds.json'
 
 # Upload creds.json once per session
 #uploaded = files.upload()
