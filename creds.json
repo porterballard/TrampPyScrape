@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "voltaic-genre-456918-q3",
+  "private_key_id": "9b2e5a7660d233c4514cb438545fac73be30d76d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDkwuEtBkhiTwTG\nmeiVy5bxsjaQ42AjEbr+gkcAnP+Pg6Aaq01ZtX8X8tNTjvF3yPY/ZXj4MDnY8dwW\nd8AC/NjSqmgfJCiunI49rPwskuDLaeOlEalUh5KcqxvgIPPo76HVBK7Ly38jhAkf\nPk9/dR/FC84Av1KupAEFa15+QjxFd2p2pXpwrL01NNizYVJ0Tm17LBR9vmlbfh4i\nhfoia3x6rIhjxqzhiFufoSQG7rH5qsiWvsFigEa85/OCxw21iWMTSAAQPamIfe0V\nMaUHXfPWP9iE0VE0kzRDKhCXvOuif7ABN7ZdhBIcte9UmpYKCmE/zP4dz+Jc+uAO\nOhhDnhd3AgMBAAECggEAZSDxwqHAZhVgmxt3AqGZ/Qc3sB2UZmx0KgcVtGOzZpJd\nuOx5qWre4ItseMf8X2Pr2GLXc4B+UjW5ggU2URvODnNezEWD5o03JHTQljPoRIRv\nKo4AOWolmjTagd6PdS5acH09eMJhViYMkk9NfZ8diFKLozDxMFs4SFkK0O4fDuXB\naQrIy7MkT4SFuSEmxFOf0m+eyaoreS6VEuWER/Y2CB/HP1S+16gli7Kp1/gCgrgb\nlzwo0vB+Bg4Dtagcumqxr+MPIKc9Dml2KOBzEsiKQXV/ND+RwEdg6958PokOyb4x\npe50Q0ec42JvY4qI2/Puf/n3XRkjMDiRxWv1ijI5YQKBgQD95/gsYmYLEstvqTbd\nlx8UK69wNBH0lZli35mWvnC/B3JeYgWWMdUNlZIm689JEn/I/3lNXolKnDROdky8\nY+BkiJ6WqpPW8L/K1emxYajjsux26XMIorUvc7ykllGU/CNRYBR1nVKaI5FwKjoP\nRpbZvX5wVM3p1Fup65vKKG3N2wKBgQDmpdNs47jSstJoY4/cVuzvb4OO9rYzf1z0\nFQ8IeLRjDby7a//yfXMSxJrVSOmqDdjWYpMs1vWrKpkM0rDwat2oGgMo93lHkX/1\nMprMtFfixfuvj7coOx83/uZ5x+b/QOnb456oDB1ACCJ1JUU8qNR1IXV5VDmixqdS\nthh2+xAFlQKBgQDJUDULK/FwcjRukiH4S6vOmFx/gCmEXWDCbjsetFw8ejEJ+Hop\nfdVI8gBxb6Joc4xx121cFMqSJ4upck6hSCdQTqo/F3wkfbnznuutQptf/itSlQIq\nJKe3ufImJTEGCWwPRzixkE0//VeBMVnbZsKQXZh0hCjHbyJGdZKOFMQK5QKBgE9W\nNQ6cmkOnjSapMJ/7Ko8FzbwMcwntwnyXDc+9LVdxLz1M3gJ8UmvfQt8gsHd1QeQk\njjl7S4/wHCtEAecA63PaVsHttkL+8oPWP1cwpZZ0walXBwqIo6lwPbkgIP4mRwsD\nFdz6JcmTwr6G7nT6IfKUasMsTJMIQB/8URgELjOtAoGAQwBmpNKsuTfhlgTTGau6\n9g34ibEDqLKqD3b5g6mgzGhU1uDnLsEyKPzwQy5oS/is+HOjzvYEMAmAMhHTuIgJ\nHJaliyVsxEJ5pqJhxUtIDmiiEf7n8ozUkcbk3Ksrir8VMY9xBNbFND/uvHZ9kWNK\n4CW5CvlWz3oYf5RTfLGKZto=\n-----END PRIVATE KEY-----\n",
+  "client_email": "daily-price-scraper@voltaic-genre-456918-q3.iam.gserviceaccount.com",
+  "client_id": "106344443895779528891",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/daily-price-scraper%40voltaic-genre-456918-q3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
