@@ -149,7 +149,7 @@ def scrape_store_and_email():
     # === Send the email via Resend ===
     resend.Emails.send({
         "from": "onboarding@resend.dev",
-        "to": ["porterballard17@gmail.com"],  # Add more recipients if needed
+        "to": ["jeff@ninjakidzparks.com"],  # Add more recipients if needed
         "subject": "Daily Airborne Pricing Update",
         "html": email_content
     })
